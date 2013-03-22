@@ -135,4 +135,8 @@ class MechanicalPart
     {
         return $this->cars;
     }
+
+    public function __toString() {
+        return $this->name;
+    }
 }
