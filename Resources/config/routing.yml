@@ -1,0 +1,3 @@
+turhan_oz_drag_drop_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: TurhanOzDragDropBundle:Default:index }
