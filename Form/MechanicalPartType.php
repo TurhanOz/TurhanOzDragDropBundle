@@ -13,7 +13,7 @@ class MechanicalPartType extends AbstractType
         $builder
             ->add('name')
             ->add('imageName')
-            ->add('cars')
+            ->add('cars', null, array('required' => false))
         ;
     }
 

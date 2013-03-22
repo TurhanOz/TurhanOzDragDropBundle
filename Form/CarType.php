@@ -12,7 +12,7 @@ class CarType extends AbstractType
     {
         $builder
             ->add('name')
-            ->add('mechanicalParts')
+            ->add('mechanicalParts', null, array('required' => false))
         ;
     }
 
