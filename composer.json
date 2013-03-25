@@ -1,0 +1,26 @@
+{
+    "name": "turhanoz/TurhanOzDragDropBundle",
+    "type": "symfony-bundle",
+    "description": "Example sf2 bundle for drag & drop ",
+    "keywords": ["drag and drop", "bundle"],
+    "homepage": "https://github.com/TurhanOz/TurhanOzDragDropBundle.git",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Turhan",
+            "homepage": "https://github.com/TurhanOz"
+            "email": "turhan@email.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2"
+    },
+    "require-dev": {
+        "symfony/framework-bundle": ">=2.0,<2.3-dev"
+    },
+    "autoload": {
+        "psr-0": { "TurhanOz\\DragDropBundle": "" }
+    },
+    "minimum-stability": "dev",
+    "target-dir": "TurhanOz/DragDropBundle"
+}
