@@ -20,7 +20,7 @@
     },
     "suggest": {
         "doctrine/doctrine-fixtures-bundle": "for fixtures"
-    },
+    },
     "autoload": {
         "psr-0": { "TurhanOz\\DragDropBundle": "" }
     },
