@@ -19,7 +19,7 @@
         "symfony/framework-bundle": ">=2.0,<2.3-dev"
     },
     "suggest": {
-        "doctrine/doctrine-fixtures-bundle": "dev-master"
+        "doctrine/doctrine-fixtures-bundle": "dev-master",
     },
     "autoload": {
         "psr-0": { "TurhanOz\\DragDropBundle": "" }
