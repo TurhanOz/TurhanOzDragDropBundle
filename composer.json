@@ -20,7 +20,7 @@
     },
     "suggest": {
         "doctrine/doctrine-fixtures-bundle": "dev-master"
-    }
+    },
     "autoload": {
         "psr-0": { "TurhanOz\\DragDropBundle": "" }
     },
