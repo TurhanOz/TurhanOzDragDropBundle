@@ -28,7 +28,7 @@ $ php composer.phar install
 new TurhanOz\DragDropBundle\TurhanOzDragDropBundle(),
 ```
 - finally, add routes into app/config/routing.yml
-```yaml
+```yml
 turhan_oz_drag_drop:
     resource: "@TurhanOzDragDropBundle/Controller"
     type:     annotation
