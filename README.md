@@ -6,8 +6,8 @@ This bundle aims to understand Drag&Drop combined to SF2
 This bundle could be added to your project thanks to composer
 - get an SF2 sandbox
 - inside composer.json, add the following line into the "require" bloc
-```
 
+```
 "turhanoz/TurhanOzDragDropBundle": "dev-master"
 ```
 

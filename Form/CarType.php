@@ -12,7 +12,13 @@ class CarType extends AbstractType
     {
         $builder
             ->add('name')
-            ->add('mechanicalParts', null, array('required' => false))
+            ->add('mechanicalParts', new DragDropType(), array(
+                'required' => false,
+               'data_class' => null))
+
+//            ->add('mechanicalParts', new MechanicalPartType(), array(
+//                'required' => false,
+//               'data_class' => null))
         ;
     }
 

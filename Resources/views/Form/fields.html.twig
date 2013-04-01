@@ -1,0 +1,9 @@
+{# symfony / src / Symfony / Bridge / Twig / Resources / views / Form / form_div_layout.html.twig #}
+
+{% block dragdrop_widget %}
+{% spaceless %}
+    <div class="snaptarget" style="height: 140px;border:1px solid #aaaaaa; background:#cccccc;">
+    {{ block('form_widget') }}
+    </div>
+{% endspaceless %}
+{% endblock dragdrop_widget %}
