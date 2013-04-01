@@ -125,8 +125,11 @@ class CarController extends Controller
         $editForm = $this->createForm(new CarType(), $entity);
         $deleteForm = $this->createDeleteForm($id);
 
+
+        $mechanicalparts = $em->getRepository('TurhanOzDragDropBundle:MechanicalPart')->findAll();
         return array(
             'entity'      => $entity,
+            'mechanicalparts'   => $mechanicalparts,
             'edit_form'   => $editForm->createView(),
             'delete_form' => $deleteForm->createView(),
         );

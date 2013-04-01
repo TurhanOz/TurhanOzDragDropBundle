@@ -26,4 +26,28 @@
         </form>
     </li>
 </ul>
+
+
+
+{% for part in mechanicalparts %}
+<div id="drag_{{ part.id }}">
+<img src="{{ asset('bundles/turhanozdragdrop/images/') }}{{ part.imageName }}.png" alt="logo" style="height:125px">
+{{ part.name }}
+</div>
+{% endfor %}
 {% endblock %}
+
+<!-- Javascript -->
+{% block javascripts %}
+    {{ parent() }}
+    <script>
+    $(function() {
+    {% for part in mechanicalparts %}
+        $( "#drag_{{ part.id }}" ).draggable({ snap: true });
+    {% endfor %}
+
+        $( "#draggable" ).draggable({ snap: true });
+    });
+    </script>
+{% endblock %}
+
